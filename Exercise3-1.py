@@ -17,7 +17,7 @@ if hours_worked <= 40:
 else:
  overtime_hours = hours_worked - 40
  overtime_payrate = pay_rate * 1.5
- overtime_pay = ovetime_hours *overtime_payrate
+ overtime_pay = ovetime_hours * overtime_payrate
  total_pay = 40 * pay_rate + overtime_pay
 
 print 'Pay: ' + str(total_pay)
