@@ -11,6 +11,7 @@ try:
   pay_rate = float(raw_input('Enter pay rate: '))
 except:
   print 'Please enter a number in decimal notation i.e. 10 not ten'
+  quit()
 
 if hours_worked <= 40:
  total_pay = hours_worked * pay_rate
